@@ -2,6 +2,8 @@
 #include<iostream>
 using namespace std;
 
+// Method 1
+
 void LoopMethod(int a, int b){
     int sum=0;
     for(int i=a; i<=b; i++)
@@ -11,11 +13,15 @@ void LoopMethod(int a, int b){
     cout<<"sum :"<<sum<<endl;
 }
 
+// Method 2
+
 void FormulaMetod(int a, int b){
      int sum=0;
      sum=(b*(b+1)/2)-(a*(a+1)/2)+a;
      cout<<"sum :"<<sum<<endl;
 }
+
+// Method 3
 
 int recursionMethod1(int a, int b){
 
